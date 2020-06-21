@@ -1,0 +1,22 @@
+@media(max-width:375px){
+    .input{
+        width: 280px; 
+    }
+    #code{
+        width: 195px;
+        padding: 7px;
+    }
+    .btn1{ 
+        width: 60px;
+
+    }
+    #show{
+        width: 280px;
+    }
+    .shown{
+        width: 280px;
+    }
+    .search{
+        width: 280px;    
+    }
+}

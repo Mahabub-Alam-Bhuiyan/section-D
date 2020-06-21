@@ -1,0 +1,149 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Section_D</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/media.css">
+    </head>
+    <body>
+        <h1>Section D students Information</h1>
+       <div class="input">
+        <input id="code" type="text">
+        <button class="btn btn1" onclick="coding()">check</button>
+       </div>
+       <div id="show"></div>
+       <!-- <div class="shown"></div> -->
+       <div class="search">
+           <h5>If you need section D students information,please write those student surname with small letter</h5>
+       </div>
+        <script>
+            function coding(){
+               var text;
+               var code = document.getElementById("code").value;
+               switch(code){
+                   case "mahabub":
+                   text = "<b>Mahabub Alam Bhuiyan</b><br><i> ID : 181-15-10794</i> <br> section : D <br> Batch : 49 <br> Department : CSE <br>Daffodil International University<br>District : Cumilla <br>Contact : 01834960466";
+                   break;
+                   case "shimanto":
+                   text = "<b> Raisul kabir Shimanto </b><br> ID : 181-15-10610 <br> section : D <br> Batch : 49 <br> Department : CSE <br>Daffodil International University <br>District : Dhaka<br>Contact : 01824666744";
+                   break;
+                   case "tariqul":
+                   text = "<b> Tariqul Islam Fahim </b><br> ID : 181-15-10765 <br> section : D <br> Batch : 49 <br> Department : CSE <br>Daffodil International University <br>District : Dhaka<br>Contact : 01862274335";
+                   break;
+                   case "asfaqur":
+                   text = "<b> Asfaqur Alam  </b><br> ID : 181-15-10574 <br> section : D <br> Batch : 49 <br> Department : CSE <br>Daffodil International University <br>District : Cumilla<br>Contact : 01843538411";
+                   break;
+                   case "sunny":
+                   text = "<b> Mohammad Rabius Sunny </b><br> ID : 181-15-10932 <br> section : D <br> Batch : 49 <br> Department : CSE <br>Daffodil International University <br>District : Chandpur<br>Contact : 01771313713";
+                   break;
+                   case "rony":
+                   text = "<b> Abu Raihan Rony </b><br> ID : 181-15-10523 <br> section : D <br> Batch : 49 <br> Department : CSE <br>Daffodil International University <br>District : Rajshahi<br>Contact : 01750787171";
+                   break;
+                   case "bks":
+                   text = "<b> Bikash DevSharma </b> <br> ID : 181-15-11034 <br> section : D <br> Batch : 49 <br> Department : CSE <br>Daffodil International University <br>District : Dinajpur<br>Contact : 01625622903";
+                   break;
+                   case "junayed":
+                   text = "<b> Junayed Ahmed </b><br> ID : 181-15-10671 <br> section : D <br> Batch : 49 <br> Department : CSE <br>Daffodil International University <br>District : B-Baria<br>Contact : 01763825756";
+                   break;
+                   case "iqbal":
+                   text = "<b> Iqbal Hossain </b><br> ID : 181-15-10704 <br> section : D <br> Batch : 49 <br> Department : CSE <br>Daffodil International University <br>District : Rajshahi<br>Contact : 01648879969";
+                   break;
+                   case "rafi":
+                   text = "<b> Anamul Kabir Rafi </b><br> ID : 181-15-10714 <br> section : D <br> Batch : 49 <br> Department : CSE <br>Daffodil International University <br>District : Dhaka<br>Contact : 01515208592";
+                   break;
+                   case "jibon":
+                   text = "<b> Rabiul Islam </b><br> ID : 171-15-8980 <br> section : D <br> Batch : 49 <br> Department : CSE <br>Daffodil International University <br>District : Rangpur<br>Contact : 01794273212";
+                   break;
+                   case "anik":
+                   text = "<b> Ashikur Rahman Shikdar </b><br> ID : 181-15-11012 <br> section : D <br> Batch : 49 <br> Department : CSE <br>Daffodil International University <br>District : Gopalganj<br>Contact : 01316100561";
+                   break;
+                   case "rabiul":
+                   text = "<b> Md.Rabiul Islam </b><br> ID : 181-15-10774 <br> section : D <br> Batch : 49 <br> Department : CSE <br>Daffodil International University <br>District : Rangpur<br>Contact : 01783028884";
+                   break;
+                   case "subed":
+                   text = "<b> Shahrier Mahmud Subed </b><br> ID : 171-15-8980 <br> section : D <br> Batch : 49 <br> Department : CSE <br>Daffodil International University <br>District : Gajipur<br>Contact : 01999390726";
+                   break;
+                   case "intia":
+                   text = "<b> Israt jahan Intia </b><br> ID : 181-15-10751 <br> section : D <br> Batch : 49 <br> Department : CSE <br>Daffodil International University <br>District : Dhaka<br>Contact : 01734316160";
+                   break;
+                   case "supti":
+                   text = "<b> Afrose Supti </b><br> ID : 171-15-8980 <br> section : D <br> Batch : 49 <br> Department : CSE <br>Daffodil International University <br>District : Narayongonj<br>Contact : 01787182046";
+                   break;
+                   case "himu":
+                   text = "<b> Mahbuba Sultana  </b><br> ID : 181-15-10927 <br> section : D <br> Batch : 49 <br> Department : CSE <br>Daffodil International University <br>District : Naogaon<br>Contact : 01716813743";
+                   break;
+                   case "khadija":
+                   text = "<b> Khadija Akter </b><br> ID : 181-15-10924 <br> section : D <br> Batch : 49 <br> Department : CSE <br>Daffodil International University <br>District : ----<br>Contact : 01633931503";
+                   break;
+                   case "mehedi1":
+                   text = "<b> Md. Mahedi Hasan </b> <br> ID : 181-15-10900 <br> section : D <br> Batch : 49 <br> Department : CSE <br>Daffodil International University <br>District : Chandpur<br>Contact : 01775834102";
+                   break;
+                   case "joy":
+                   text = "<b> Mohd. Mehedi Hasan Joy </b><br> ID : 171-15-8980 <br> section : D <br> Batch : 49 <br> Department : CSE <br>Daffodil International University <br>District : Chandpur<br>Contact : 01712051680";
+                   break;
+                   case "sajib":
+                   text = "<b> Sajib Ahmed </b> <br> ID : 181-15-10874 <br> section : D <br> Batch : 49 <br> Department : CSE <br>Daffodil International University <br>District : Tangail<br>Contact : 01790363394";
+                   break;
+                   case "sporsho":
+                   text = "<b> Sajib Paul Spharsha  </b><br> ID : 181-15-10929 <br> section : D <br> Batch : 49 <br> Department : CSE <br>Daffodil International University <br>District : Narsingdi<br>Contact : 01703046217";
+                   break;
+                   case "nisha":
+                   text = "<b> Most. Nusratjahan Nisha </b><br> ID : 181-15-11342 <br> section : D <br> Batch : 49 <br> Department : CSE <br>Daffodil International University <br>District : Rangpur<br>Contact : 01712599755";
+                   break;
+                   case "mehedi2":
+                   text = "<b> Md. Mehedi Hasan  </b><br> ID : 181-15-10826<br> section : D <br> Batch : 49 <br> Department : CSE <br>Daffodil International University <br>District : Faridpur<br>Contact : 01794273212";
+                   break;
+                   case "porag":
+                   text = "<b> Jubayer Imtiaz Porag </b><br> ID : 181-15-10567 <br> section : D <br> Batch : 49 <br> Department : CSE <br>Daffodil International University <br>District : Bhola,Barishal<br>Contact : 01722469841";
+                   break;
+                   case "amit":
+                   text = "<b> Amit Nag </b><br> ID : 171-15-8980 <br> section : D <br> Batch : 49 <br> Department : CSE <br>Daffodil International University <br>District : Dhaka<br>Contact : 01839000222";
+                   break;
+                   case "hridoy":
+                   text = "<b> Nahid Hasan Hridoy </b><br> ID : 181-15-10663 <br> section : D <br> Batch : 49 <br> Department : CSE <br>Daffodil International University <br>District : Kishoreganj<br>Contact : 01615291787";
+                   break;
+                   case "jim":
+                   text = "<b> Md. Mursalin Dowla </b> <br> ID : 181-15-10582 <br> section : D <br> Batch : 49 <br> Department : CSE <br>Daffodil International University <br>District : Jhenidah<br>Contact : 01997244042";
+                   break;
+                   case "pulok":
+                   text = "<b> Mahedi Hasan Pulok </b><br> ID : 181-15-11033 <br> section : D <br> Batch : 49 <br> Department : CSE <br>Daffodil International University <br>District : Jatrabari,Dhaka<br>Contact : 01630989985";
+                   break;
+                   case "rajib":
+                   text = "<b> SAIDUL ISLAM RAJIB </b><br> ID : 181-15-11291 <br> section : D <br> Batch : 49 <br> Department : CSE <br>Daffodil International University <br>District : Kishoreganj<br>Contact : 01638599692";
+                   break;
+                   case "momy":
+                   text = "<b> Kafiatun Jannat Momi </b><br> ID : 181-15-11285 <br> section : D <br> Batch : 49 <br> Department : CSE <br>Daffodil International University <br>District : Kishoreganj<br>Contact : 01794273212";
+                   break;
+                   case "swaccho":
+                   text = "<b> K. M. Nayem Ahmed </b><br> ID : 181-15-10870 <br> section : D <br> Batch : 49 <br> Department : CSE <br>Daffodil International University <br>District : Sirajganj<br>Contact : 01710134836";
+                   break;
+                   case "arpa":
+                   text = "<b> Khondoker Sangida Ferdous </b><br> ID : 181-15-10870 <br> section : D <br> Batch : 49 <br> Department : CSE <br>Daffodil International University <br>District : Faridpur<br>Contact : 01711397995";
+                   break;
+                   case "sakib":
+                   text = "<b> Rijwan Ahmed Sakib  </b><br> ID : 181-15-10899 <br> section : D <br> Batch : 49 <br> Department : CSE <br>Daffodil International University <br>District : Kishoreganj<br>Contact : 01679674402";
+                   break;
+                   case "akkhar":
+                   text = "<b> Akkhar Ulok  </b><br> ID : 181-15-11207 <br> section : D <br> Batch : 49 <br> Department : CSE <br>Daffodil International University <br>District : Noakhali<br>Contact : 01633782011";
+                   break;
+                   case "mehraj":
+                   text = "<b> Shahadat Meheraj </b><br> ID : 181-15-10983 <br> section : D <br> Batch : 49 <br> Department : CSE <br>Daffodil International University <br>District : Noakhali<br>Contact : 01712218797";
+                   break;
+                   default:
+                   text = "Unknown...<br> please try again with correct name";
+                    
+                   
+               }
+               document.getElementById("show").innerHTML = text;
+            }
+        </script>
+
+
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/app.js"></script>
+    </body>
+    </html>
